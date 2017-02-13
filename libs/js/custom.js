@@ -58,10 +58,8 @@ $(document).ready(function(){
 
 	$(document).on('click', '.paging-btn', function(){
 		$("#loader-image").show();
-		// var page_type = $("#page-type").val();
 		var page = $(this).attr('page-num');
 		console.log(page);
-		// $("#page-number").val(page);  
 		showProducts(page);
 	})
 
